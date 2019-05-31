@@ -1,0 +1,48 @@
+/******************************************
+    File Name: dark.css
+    Template Name: Barber Shop
+    Created By: Show WP Team
+    Envato Profile: http://themeforest.net/user/wordpressshowcase
+    Website: https://showwp.com
+    Version: 1.0
+    Support: wordpressshowcasecom@gmail.com
+/******************************************
+
+/** 
+	ITS JUST AN EXAMPLE DARK HOMEPAGE. 
+	IF YOU WANT TO USE ON ALL PAGES 
+	JUST ADD YOUR CUSTOM CLASSES HERE 
+	FOR DARK VERSION 
+**/
+
+.navbar-nav > li > .dropdown-menu li ul li,
+.navbar-nav > li > .dropdown-menu li ul,
+.navbar-nav > li > .dropdown-menu li,
+.navbar-nav > li > .dropdown-menu li:hover,
+.navbar-nav > li > .dropdown-menu li:focus,
+.navbar-nav > li > .dropdown-menu,
+.megamenu .dropdown-menu li,
+.megamenu .dropdown-menu,
+.megamenu .dropdown-menu li:hover, 
+.megamenu .dropdown-menu li:focus {
+	background:#1c1d17 url("images/bg.png") repeat scroll 0 0 !important;
+	border-color:#212121 !important;
+}
+.section {
+	background-color: #181818;
+}
+
+.team-desc,
+.service-image img,
+.section.lb {
+	background-color: #272727;
+}
+.openinghours li,
+.service-image img {
+	border-color:#323232;
+}
+.yamm-content .widget-title h4,
+.readmore,
+h1, h2, h3, h4, h5, h6 {
+	color:#ffffff;
+}
