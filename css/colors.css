@@ -16,7 +16,7 @@ a.topbutton,
 .recent-posts li p, .recent-posts li:hover a,
 .footer .link-widget ul li:hover a,
 .footer li:hover a {
-	color:#a45c41 !important;
+	color:#8b3232 !important;
 }
 
 
@@ -34,7 +34,7 @@ a.topbutton,
 /* MENU DEFAULT */
 
 .tab-style-1 .nav-tabs > li.active > a {
-	border-top-color: #8c4429 !important;
+	border-top-color: #8c2929 !important;
 }
 .page-wrapper .widget-title hr,
 .custombg,
@@ -44,7 +44,7 @@ a.topbutton,
     .appoform .form-control,
 .service-desc i,
 a.topbutton {
-	border-color: #8c4429 !important;
+	border-color: #8c2929 !important;
 }
 
 .first-accordion .panel-default > .panel-heading i,
@@ -57,13 +57,10 @@ a.topbutton {
 .contact-details li i,
 .btn-primary,
 .Creative-Button,
-.tp-caption.Creative-Button,
-.navbar-right li.active,
-.navbar-right li:active,
-.navbar-right li {
+.tp-caption.Creative-Button{
 	color:#ffffff !important;
-	border-color: #8c4429 !important;
-	background-color: #9A5237 !important;
+	border-color: #8c2929 !important;
+	background-color: #8b3232 !important;
 }
 .tags a:hover,
 .ui-widget-header,
@@ -77,6 +74,6 @@ a.topbutton {
 .navbar-right li:hover,
 .navbar-right li:focus{
 	color:#ffffff !important;
-	border-color: #9A5237 !important;
-	background-color: #8c4429 !important;
+	border-color: #8c2929 !important;
+	background-color: #8b3232 !important;
 }

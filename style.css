@@ -2462,7 +2462,7 @@ body.maintenance #custom-search-input {
 .eat-detail {
     position: relative;
     display: block;
-    padding: 10px 0;
+    padding: 30px 30px;
 }
 
 .eat-detail hr {
