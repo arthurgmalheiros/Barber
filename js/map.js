@@ -1,7 +1,7 @@
       var locations = [
-        ['<div class="infobox"><div class="infoboxtext"><img class="img-responsive alignleft" src="upload/office_01.png" alt=""><h3><a href="#"> Envato INC 22 Elizabeth St.</a></h3></div><a class="btn btn-primary btn-block" href="#">90 987 654 32 10</a></div>', -33.890294, 151.274737, 1],
-        ['<div class="infobox"><div class="infoboxtext"><img class="img-responsive alignleft" src="upload/office_01.png" alt=""><h3><a href="#"> Envato INC 22 Elizabeth St.</a></h3></div><a class="btn btn-primary btn-block" href="#">90 987 654 32 10</a></div>', -33.890254, 151.276737, 2],
-        ['<div class="infobox"><div class="infoboxtext"><img class="img-responsive alignleft" src="upload/office_01.png" alt=""><h3><a href="#"> Envato INC 22 Elizabeth St.</a></h3></div><a class="btn btn-primary btn-block" href="#">90 987 654 32 10</a></div>', -33.890254, 151.272737, 3]
+        ['<div class="infobox"><div class="infoboxtext"><img class="img-responsive alignleft" src="upload/office_01.png" alt=""><h3><a href="#"> Envato INC 22 Elizabeth St.</a></h3></div><a class="btn btn-primary btn-block" href="#">90 987 654 32 10</a></div>', -19.8823846, -43.9953601, 1],
+        ['<div class="infobox"><div class="infoboxtext"><img class="img-responsive alignleft" src="upload/office_01.png" alt=""><h3><a href="#"> Envato INC 22 Elizabeth St.</a></h3></div><a class="btn btn-primary btn-block" href="#">90 987 654 32 10</a></div>', -19.8823846, -43.9953601, 2],
+        ['<div class="infobox"><div class="infoboxtext"><img class="img-responsive alignleft" src="upload/office_01.png" alt=""><h3><a href="#"> Envato INC 22 Elizabeth St.</a></h3></div><a class="btn btn-primary btn-block" href="#">90 987 654 32 10</a></div>', -19.8823846, -43.9953601, 3]
         ];
 
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -91,7 +91,7 @@
         ]
     }
 ],
-            center: new google.maps.LatLng(-33.890294, 151.274737),
+            center: new google.maps.LatLng(-19.8823846, -43.9953601),
           mapTypeId: google.maps.MapTypeId.ROADMAP
         });
 
@@ -103,8 +103,7 @@
       
             marker = new google.maps.Marker({ 
             position: new google.maps.LatLng(locations[i][1], locations[i][2]), 
-            map: map ,
-            icon: 'images/marker.png'
+            map: map
             });
 
 
