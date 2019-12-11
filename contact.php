@@ -43,7 +43,7 @@ if(get_magic_quotes_gpc()) {
 
 //$address = "example@themeforest.net";
 // $address = "raphael_viianna@hotmail.com";
-$address = "raphael_viianna@hotmail.com";
+$address = " contatobarbeariaviannas@hotmail.com";
 
 // Configuration option.
 // i.e. The standard subject will appear as, "You've been contacted by John Doe."
